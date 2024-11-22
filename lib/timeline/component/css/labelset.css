@@ -41,3 +41,27 @@
 .vis-labelset .vis-label .vis-inner.vis-hidden {
   padding: 0;
 }
+
+/* [XAM]-S collapsible group tree */
+.vis-group-shrink-btn {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  left: 2px;
+  border-radius: 5%;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: #3876c2;
+}
+.vis-group-shrink-btn:before {
+  content: "\2261";
+}
+
+.vis-group-shrink-btn:hover {
+  opacity: 1;
+}
+/* [XAM]-E collapsible group tree */

@@ -27,7 +27,7 @@
   height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
-} 
+}
 
 .vis-left.vis-panel.vis-vertical-scroll {
   direction: rtl;
@@ -59,6 +59,15 @@
 .vis-panel > .vis-content {
   position: relative;
 }
+
+/* [XAM]-S collapsible group tree */
+.vis-left.vis-panel > .vis-content,
+.vis-right.vis-panel > .vis-content {
+    position: relative;
+    width: fit-content;
+    white-space: nowrap;
+}
+/* [XAM]-E collapsible group tree */
 
 .vis-panel .vis-shadow {
   position: absolute;
